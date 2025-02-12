@@ -27,11 +27,11 @@ body {
     color: var(--primary-color);
 }
 
-/*html, body {
+html, body {
     width: 100%;
     max-width: 100vw;
     overflow-x: hidden;
-}*/
+}
 
 a {
     text-decoration: none;
