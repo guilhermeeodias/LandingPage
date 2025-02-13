@@ -478,3 +478,27 @@ display: none;
 .back-to-top:hover {
     background:var(--secondary-color)
 }
+
+@media (max-width: 30rem) {
+    .contact-form {
+        grid-column: span 1;
+    }
+      .intro-content h2, .top3-content h2 {
+        font-size: 4rem;
+      }
+      .main-content {
+        max-width: 220;
+      }
+}
+
+@media (max-width: 25rem) {
+    .intro-content h2 {
+        font-size: 3rem;
+      }
+}
+
+@media (max-width: 19rem) {
+    .intro-content h2 {
+        font-size: 2rem;
+      }
+}
